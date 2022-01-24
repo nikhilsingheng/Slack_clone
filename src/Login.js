@@ -4,7 +4,7 @@ import { Button } from '@material-ui/core';
 import { auth, provider } from './firebase';
 import { useStateValue } from './StateProvider';
 import { actionTypes } from './reducer';
-//import { provider } from './firebase';
+// import {provider} from './firebase';
 
 function Login() { 
     const [state, disaptch] = useStateValue();
@@ -26,9 +26,9 @@ function Login() {
     return (
         <div className="login">
             <div className="login__container">
-                <img src="https://i.pcmag.com/imagery/reviews/07td46ju7p6lLVb0QGwc5VF-6..v_1569479844.jpg" alt=""/>
+                <img src="https://st4.depositphotos.com/14695614/25892/v/1600/depositphotos_258927852-stock-illustration-meeting-room-people-logo-group.jpg" alt=""/>
 
-                <h1>Sign in to Slack Clone</h1>
+                <h1>Sign in to Slack</h1>
                 <p>sach.slack.com</p>
                 <Button onClick={signIn}>Sign in with Google</Button>
 

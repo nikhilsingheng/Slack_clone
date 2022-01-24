@@ -12,24 +12,24 @@ function Header() {
     return (
         <div className="header">
         <div className="header_left">
-            {/* Avatars */}
+           
         <Avatar
             className="header_avatar"
             alt={user?.displayname}
             src={user?.photoURL}
             />
-            {/* time icon */}
+           
             <AccessTimeIcon/>
         </div>  
         <div className='header_search'>
-                {/* search icon */}
+            
                 <SearchIcon />
                 <input placeholder = "search hello world" /> 
-                {/* input */}
+             
 
         </div>
         <div className="header_right">
-            {/* help icon */}
+         
             <HelpOutlineIcon />
         </div>
         </div>

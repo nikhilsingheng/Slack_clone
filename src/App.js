@@ -8,7 +8,7 @@ import Login from './Login';
 import { useStateValue } from './StateProvider';
 
 function App() {
-  //const [user, setUser] = useState(null); 
+  // const [user, setUser] = useState(null); 
   const [{user}, dispatch] = useStateValue();
 
   return (
@@ -26,7 +26,7 @@ function App() {
             <Chat/>
           </Route>
           <Route path = "/">
-            <h1>Welcome</h1>
+            <h1>Welcome Slack</h1>
           </Route>
         </Switch>
       </div>
